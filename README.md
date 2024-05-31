@@ -4,6 +4,9 @@ Welcome to Kiraka.ai! Inspired by the Arabic word for reading, *[qirā'ah]*, our
 
 Kiraka.ai is currently hosted at: https://srp.doc.ic.ac.uk
 
+> **Important:** To ensure our eye-tracking features work properly, please access our website using ***Google Chrome*** on a laptop or desktop equipped with a webcam.
+
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -153,6 +156,7 @@ FlashMode Adaptive not only adapts to your reading speed through your gaze but a
 $\color{red}{Difficulty\ Levels}$:
 \
 FlashMode Adaptive offers three levels of difficulty, each designed to cater to different user proficiencies:
+
 - $\color{darkred}{Beginner}$: Ideal for those new to speed reading.
 - $\color{darkred}{Intermediate}$: For readers with some experience in dynamic reading environments.
 - $\color{darkred}{Expert}$: For those who seek to challenge their reading capabilities to the limit.
