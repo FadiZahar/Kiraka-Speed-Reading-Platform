@@ -2,7 +2,7 @@
 
 Welcome to Kiraka.ai! Inspired by the Arabic word for reading, *[qirā'ah]*, our platform is dedicated to enhancing your reading experience through innovative, technology-driven solutions. Initiated as a university project at Imperial College London, Kiraka.ai's main feature—***FlashMode Adaptive***—leverages eye-tracking technology and lexical analysis to tailor the reading experience to your pace and comprehension needs.
 
-Kiraka.ai is currently hosted at: https://srp.doc.ic.ac.uk
+Kiraka.ai is not hosted online at the moment.
 
 > **Important:** To ensure our eye-tracking features work properly, please access our website using ***Google Chrome*** on a laptop or desktop equipped with a webcam.
 
@@ -62,7 +62,13 @@ Kiraka.ai is designed to explore the potential of speed reading and its impact o
     # or
     yarn install
     ```
-4. Authentication is handled by *Clerk*, which creates an ID for each user. This ID is the only piece of user authentication we store. 
+
+4. Download the `complexity_llm.pt` file from the **Releases**, tagged as *complexity_llm*, and set up the model:
+
+    - Create a folder named `llms/` in the main project directory (if it doesn't already exist).
+    - Place the downloaded `complexity_llm.pt` file into the `llms/` folder.
+
+5. Authentication is handled by *Clerk*, which creates an ID for each user. This ID is the only piece of user authentication we store. 
 
     Add your Clerk API keys and instructions after sign-in/sign-up to an `.env.local` file in your root directory:
 
@@ -77,7 +83,8 @@ Kiraka.ai is designed to explore the potential of speed reading and its impact o
     NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL="/instructions"
     NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL="/instructions"
     ```
-    For assistance with API keys or setup, please contact us at srp.doc.ic.ac.uk@gmail.com.
+    For assistance with API keys or setup, please contact us at srp.doc.ic.ac.uk@gmail.com or reach out to the [authors](#authors) directly.
+
 
 ## Running the Application 
 
@@ -96,7 +103,7 @@ Kiraka.ai is designed to explore the potential of speed reading and its impact o
         PORT = 8000
         ADMIN_ID = '<1 or replace_with_your_clerk_id>'
         ```
-        For assistance with database setup or any related issues, please contact us at srp.doc.ic.ac.uk@gmail.com.
+        For assistance with database setup or any related issues, please contact us at srp.doc.ic.ac.uk@gmail.com or reach out to the [authors](#authors) directly.
 
 3. Run the server:
     - To run the *development* server:
@@ -156,7 +163,6 @@ FlashMode Adaptive not only adapts to your reading speed through your gaze but a
 $\color{red}{Difficulty\ Levels}$:
 \
 FlashMode Adaptive offers three levels of difficulty, each designed to cater to different user proficiencies:
-
 - $\color{darkred}{Beginner}$: Ideal for those new to speed reading.
 - $\color{darkred}{Intermediate}$: For readers with some experience in dynamic reading environments.
 - $\color{darkred}{Expert}$: For those who seek to challenge their reading capabilities to the limit.
@@ -168,11 +174,11 @@ After your reading sessions, AI-generated quizzes designed to test comprehension
 Kiraka.ai provides an analytics page to help users track their reading (average WPM) and comprehension performance (Quiz Score). Displayed through informative graphs, these analytics allow users to reflect on their progress and stay motivated, ideal for those looking to systematically enhance their reading skills.
 
 ## Contact Us
-For more information or if you have any questions, please contact us at: srp.doc.ic.ac.uk@gmail.com
+For more information or if you have any questions, please contact us at: srp.doc.ic.ac.uk@gmail.com or reach out to the [authors](#authors) directly.
 
 
 ## Terms and Conditions
-For more information about our terms and conditions, please visit the following page: https://srp.doc.ic.ac.uk/terms
+For detailed information about our terms and conditions, please refer to the file located at `app/(dashboard)/(routes)/terms/page.tsx`.
 
 
 ## Authors
