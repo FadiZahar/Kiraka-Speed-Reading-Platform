@@ -163,9 +163,9 @@ FlashMode Adaptive not only adapts to your reading speed through your gaze but a
 $\color{red}{Difficulty\ Levels}$:
 \
 FlashMode Adaptive offers three levels of difficulty, each designed to cater to different user proficiencies:
-- $\color{darkred}{Beginner}$: Ideal for those new to speed reading.
-- $\color{darkred}{Intermediate}$: For readers with some experience in dynamic reading environments.
-- $\color{darkred}{Expert}$: For those who seek to challenge their reading capabilities to the limit.
+- $\color{darkred}{Level\ 1\ —\ B e g i n n e r :}$ Ideal for those new to speed reading.
+- $\color{darkred}{Level\ 2\ —\ Intermediate:}$ For readers with some experience in dynamic reading environments.
+- $\color{darkred}{Level\ 3\ —\ Expert:}$ For those who seek to challenge their reading capabilities to the limit.
 
 ### AI Quiz Generation
 After your reading sessions, AI-generated quizzes designed to test comprehension will be presented. These quizzes are crucial for addressing the trade-offs between speed and comprehension commonly seen with traditional speed reading techniques. Currently being refined for improved question generation, this feature also accommodates ***user-uploaded texts***, reinforcing our commitment to user-centric learning experiences.
