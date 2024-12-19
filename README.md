@@ -6,6 +6,8 @@ Kiraka.ai is not hosted online at the moment.
 
 > **Important:** To ensure our eye-tracking features work properly, please access our website using ***Google Chrome*** on a laptop or desktop equipped with a webcam.
 
+> For more details about the project, please refer to the accompanying [Presentation](<public/kiraka_ppt.pdf>) and [Report](<public/kiraka_report.pdf>) prepared by our team.
+
 
 ## Table of Contents
 
